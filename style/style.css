@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');/* NAVBAR */
+header {
+    background-color:#2E8B57;
+    padding-bottom: 8px;
+}
+
+.logo{
+  float: right;
+  border-radius: 30px;
+  width: 140px;
+  height:70px;
+}
+
+
+
+nav {
+  padding-top: 23px;
+}
+
+nav li{
+  display: inline;
+  margin-left: 70px;
+
+}
+
+
+nav a{
+  color:#FFF5EE;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: 15px;
+}
+
+nav a:hover{
+  color:#000;
+}
+
+
+
+
+
+
+
+
+
+/* CAROUSEL */
+.carousel__image{
+  width: 100%;
+  height: 50%; 
+}
+
+
+
+
+
+/* FOOD */
+
+
+
+
+.food__image{
+  width: 420px;
+  height:300px;
+  float:left;
+  border-radius:30%;
+}
+
+.food__type{
+  padding: 70px 0px;
+}
+
+
+.food__title1{
+  padding: 0px 500px 0 0px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.food__title2{
+  padding: 0px 440px 0 0px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.food__left { 
+  display:table-cell; 
+  vertical-align:middle; 
+  margin: 0;
+}
+
+.food__right { 
+  display:table-cell; 
+  padding:0px 160px 0 60px; 
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+/* body */
+h1 {
+    text-align: center;
+}
+
+/* SARY_CHELEK */
+.sary .sary-chelek{
+  outline-style: solid;
+  outline-width: thin;
+  margin: 0px;
+}
+
+.sary p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* SULEIMAN_TOO */
+.osh{
+  padding-top:30px;
+}
+
+.osh .suleiman{
+  outline-style: solid;
+  outline-width: thin;
+  margin: 0px;
+}
+.osh p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* BAZAAR */
+.baz .bazaar{
+  outline-style: solid;
+  outline-width: thin;
+  margin: 0px;
+}
+
+.baz p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+/* Lenin Peak */
+.peaklenin .peak{
+  outline-style: solid;
+  outline-width: thin;
+  margin: 0px;
+}
+
+.peaklenin p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+/* FOOTER */
+footer {
+  background-color: #2E8B57;
+}
+
+footer ul{
+  margin-left: 1000px;
+
+}
+
+footer li{
+  display: inline;
+  margin-right: 70px;
+
+}
+
+footer a{
+  color:#FFF5EE;
+}
+footer a:hover{
+  color:#000;
+}
